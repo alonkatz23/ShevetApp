@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50E9423023114F93343D577C /* Pods_Shevet_Hamifratz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6B4D8EB255CFDF321300AF /* Pods_Shevet_Hamifratz.framework */; };
+		7325817A201AA311008054BB /* CustomArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73258178201AA311008054BB /* CustomArticleCell.swift */; };
+		7325817B201AA311008054BB /* CustomArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73258179201AA311008054BB /* CustomArticleCell.xib */; };
+		736CFB812032B18C008F3238 /* ArticleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736CFB802032B18C008F3238 /* ArticleController.swift */; };
+		738D2A5720196F5400D25424 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738D2A5620196F5400D25424 /* SettingsViewController.swift */; };
+		738D2A592019707A00D25424 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738D2A582019707A00D25424 /* CalendarViewController.swift */; };
+		738D2A5B2019798F00D25424 /* TzofimUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738D2A5A2019798E00D25424 /* TzofimUser.swift */; };
+		73A8EB3E201A582E00D33F1E /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73A8EB3D201A582E00D33F1E /* Article.swift */; };
 		73C17EB220182434000358B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C17EB120182434000358B3 /* AppDelegate.swift */; };
 		73C17EB420182434000358B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C17EB320182434000358B3 /* ViewController.swift */; };
-		73C17EB720182434000358B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C17EB520182434000358B3 /* Main.storyboard */; };
 		73C17EB920182434000358B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C17EB820182434000358B3 /* Assets.xcassets */; };
 		73C17EBC20182434000358B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73C17EBA20182434000358B3 /* LaunchScreen.storyboard */; };
+		73C17EC420182622000358B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73C17EC320182622000358B3 /* GoogleService-Info.plist */; };
+		73F0DB122018308E00B88A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73F0DB112018308E00B88A80 /* Main.storyboard */; };
+		73F0DB342018347600B88A80 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F0DB332018347600B88A80 /* LoginViewController.swift */; };
+		73F0DB3620185DFD00B88A80 /* NewsletterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73F0DB3520185DFC00B88A80 /* NewsletterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		527A4D0626B7804D2A0B7200 /* Pods-Shevet Hamifratz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shevet Hamifratz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shevet Hamifratz/Pods-Shevet Hamifratz.debug.xcconfig"; sourceTree = "<group>"; };
+		61F8241141479305BDE43140 /* Pods-Shevet Hamifratz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shevet Hamifratz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Shevet Hamifratz/Pods-Shevet Hamifratz.release.xcconfig"; sourceTree = "<group>"; };
+		73258178201AA311008054BB /* CustomArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomArticleCell.swift; sourceTree = "<group>"; };
+		73258179201AA311008054BB /* CustomArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomArticleCell.xib; sourceTree = "<group>"; };
+		736CFB802032B18C008F3238 /* ArticleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleController.swift; sourceTree = "<group>"; };
+		738D2A5620196F5400D25424 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		738D2A582019707A00D25424 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		738D2A5A2019798E00D25424 /* TzofimUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TzofimUser.swift; sourceTree = "<group>"; };
+		73A8EB3D201A582E00D33F1E /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		73C17EAE20182434000358B3 /* Shevet Hamifratz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shevet Hamifratz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73C17EB120182434000358B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73C17EB320182434000358B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		73C17EB620182434000358B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		73C17EB820182434000358B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73C17EBB20182434000358B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73C17EBD20182434000358B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73C17EC320182622000358B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		73F0DB112018308E00B88A80 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		73F0DB332018347600B88A80 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		73F0DB3520185DFC00B88A80 /* NewsletterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsletterViewController.swift; sourceTree = "<group>"; };
+		FB6B4D8EB255CFDF321300AF /* Pods_Shevet_Hamifratz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Shevet_Hamifratz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,63 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50E9423023114F93343D577C /* Pods_Shevet_Hamifratz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73258177201AA2B1008054BB /* Article Cell */ = {
+			isa = PBXGroup;
+			children = (
+				73258178201AA311008054BB /* CustomArticleCell.swift */,
+				73258179201AA311008054BB /* CustomArticleCell.xib */,
+			);
+			name = "Article Cell";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		73A8EB39201A57AC00D33F1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				73C17EB120182434000358B3 /* AppDelegate.swift */,
+				73C17EB320182434000358B3 /* ViewController.swift */,
+				73F0DB332018347600B88A80 /* LoginViewController.swift */,
+				738D2A5620196F5400D25424 /* SettingsViewController.swift */,
+				73F0DB3520185DFC00B88A80 /* NewsletterViewController.swift */,
+				738D2A582019707A00D25424 /* CalendarViewController.swift */,
+				736CFB802032B18C008F3238 /* ArticleController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		73A8EB3B201A57DD00D33F1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73258177201AA2B1008054BB /* Article Cell */,
+				73F0DB112018308E00B88A80 /* Main.storyboard */,
+				73C17EBA20182434000358B3 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73A8EB3C201A580100D33F1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				738D2A5A2019798E00D25424 /* TzofimUser.swift */,
+				73A8EB3D201A582E00D33F1E /* Article.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		73C17EA520182434000358B3 = {
 			isa = PBXGroup;
 			children = (
 				73C17EB020182434000358B3 /* Shevet Hamifratz */,
 				73C17EAF20182434000358B3 /* Products */,
+				BE443143A96060AE8AF11D7C /* Pods */,
+				ED33F4C2401928819770427C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +124,31 @@
 		73C17EB020182434000358B3 /* Shevet Hamifratz */ = {
 			isa = PBXGroup;
 			children = (
-				73C17EB120182434000358B3 /* AppDelegate.swift */,
-				73C17EB320182434000358B3 /* ViewController.swift */,
-				73C17EB520182434000358B3 /* Main.storyboard */,
+				73A8EB3C201A580100D33F1E /* Model */,
+				73A8EB3B201A57DD00D33F1E /* View */,
+				73A8EB39201A57AC00D33F1E /* Controller */,
 				73C17EB820182434000358B3 /* Assets.xcassets */,
-				73C17EBA20182434000358B3 /* LaunchScreen.storyboard */,
 				73C17EBD20182434000358B3 /* Info.plist */,
+				73C17EC320182622000358B3 /* GoogleService-Info.plist */,
 			);
 			path = "Shevet Hamifratz";
+			sourceTree = "<group>";
+		};
+		BE443143A96060AE8AF11D7C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				527A4D0626B7804D2A0B7200 /* Pods-Shevet Hamifratz.debug.xcconfig */,
+				61F8241141479305BDE43140 /* Pods-Shevet Hamifratz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED33F4C2401928819770427C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB6B4D8EB255CFDF321300AF /* Pods_Shevet_Hamifratz.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 73C17EC020182434000358B3 /* Build configuration list for PBXNativeTarget "Shevet Hamifratz" */;
 			buildPhases = (
+				9587D5390A1336B9543625F5 /* [CP] Check Pods Manifest.lock */,
 				73C17EAA20182434000358B3 /* Sources */,
 				73C17EAB20182434000358B3 /* Frameworks */,
 				73C17EAC20182434000358B3 /* Resources */,
+				6E926B63D746E969EDD8C8B6 /* [CP] Embed Pods Frameworks */,
+				962AF4457D5B3AE10E175514 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,20 +213,96 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7325817B201AA311008054BB /* CustomArticleCell.xib in Resources */,
 				73C17EBC20182434000358B3 /* LaunchScreen.storyboard in Resources */,
+				73C17EC420182622000358B3 /* GoogleService-Info.plist in Resources */,
 				73C17EB920182434000358B3 /* Assets.xcassets in Resources */,
-				73C17EB720182434000358B3 /* Main.storyboard in Resources */,
+				73F0DB122018308E00B88A80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E926B63D746E969EDD8C8B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Shevet Hamifratz/Pods-Shevet Hamifratz-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GradientLoadingBar/GradientLoadingBar.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GradientLoadingBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shevet Hamifratz/Pods-Shevet Hamifratz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9587D5390A1336B9543625F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Shevet Hamifratz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		962AF4457D5B3AE10E175514 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Shevet Hamifratz/Pods-Shevet Hamifratz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		73C17EAA20182434000358B3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7325817A201AA311008054BB /* CustomArticleCell.swift in Sources */,
+				73F0DB342018347600B88A80 /* LoginViewController.swift in Sources */,
+				738D2A592019707A00D25424 /* CalendarViewController.swift in Sources */,
+				73F0DB3620185DFD00B88A80 /* NewsletterViewController.swift in Sources */,
+				738D2A5B2019798F00D25424 /* TzofimUser.swift in Sources */,
+				73A8EB3E201A582E00D33F1E /* Article.swift in Sources */,
+				736CFB812032B18C008F3238 /* ArticleController.swift in Sources */,
 				73C17EB420182434000358B3 /* ViewController.swift in Sources */,
+				738D2A5720196F5400D25424 /* SettingsViewController.swift in Sources */,
 				73C17EB220182434000358B3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +310,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		73C17EB520182434000358B3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				73C17EB620182434000358B3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		73C17EBA20182434000358B3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +430,7 @@
 		};
 		73C17EC120182434000358B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527A4D0626B7804D2A0B7200 /* Pods-Shevet Hamifratz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +446,7 @@
 		};
 		73C17EC220182434000358B3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F8241141479305BDE43140 /* Pods-Shevet Hamifratz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
