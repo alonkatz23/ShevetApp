@@ -15,6 +15,8 @@ class NewsletterViewController: UIViewController, UITableViewDelegate, UITableVi
     
     var image: UIImage?
     
+    var selectedRow: Int?
+    
     @IBOutlet weak var articleTableView: UITableView!
     
     @IBOutlet weak var settingsButton: UIButton!
@@ -79,6 +81,8 @@ class NewsletterViewController: UIViewController, UITableViewDelegate, UITableVi
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedRow = indexPath.row
+        print("Before Segue \(selectedRow)")
         self.performSegue(withIdentifier: "cellSelectedSegue", sender: self)
         articleTableView.deselectRow(at: indexPath, animated: true)
     }
@@ -171,7 +175,12 @@ class NewsletterViewController: UIViewController, UITableViewDelegate, UITableVi
 //        present(loginController, animated: true, completion: nil)
     }
     
-    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if (segue.identifier == "cellSelectedSegue"){
+            let destinationVC: ArticleController = segue.destination as! ArticleController
+            destinationVC.article = articles[selectedRow!]
+        }
+    }
 
     
     /*
@@ -179,8 +188,8 @@ class NewsletterViewController: UIViewController, UITableViewDelegate, UITableVi
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+         Get the new view controller using segue.destinationViewController.
+         Pass the selected object to the new view controller.
     }
     */
 

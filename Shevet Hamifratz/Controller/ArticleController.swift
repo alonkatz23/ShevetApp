@@ -10,12 +10,29 @@ import UIKit
 
 class ArticleController: UIViewController {
 
+    @IBOutlet weak var articleContent: UILabel!
+    
+    var selectedRow: Int?
+    
+    var article: Article?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+      
         // Do any additional setup after loading the view.
     }
 
+    override func viewDidAppear(_ animated: Bool) {
+        if let art = article {
+            if let str = article?.content{
+                  articleContent.text = str
+            }
+          
+        }
+       
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

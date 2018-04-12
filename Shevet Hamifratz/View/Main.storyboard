@@ -397,8 +397,19 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gxZ-Fb-94x" userLabel="InnerView">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
                                         <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UNE-ed-4tu">
+                                                <rect key="frame" x="26" y="40" width="322" height="159"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I2k-hZ-Qec">
+                                                <rect key="frame" x="26" y="232" width="322" height="159"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVh-ab-HG7">
-                                                <rect key="frame" x="160" y="798" width="54" height="30"/>
+                                                <rect key="frame" x="160" y="849" width="54" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <state key="normal" title="Dismiss"/>
                                                 <connections>
@@ -432,10 +443,13 @@
                         <viewLayoutGuide key="safeArea" id="r2j-Ya-9ua"/>
                     </view>
                     <size key="freeformSize" width="375" height="1000"/>
+                    <connections>
+                        <outlet property="articleContent" destination="I2k-hZ-Qec" id="Ph1-Ol-Uex"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ckh-Mk-Ybl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2703" y="-424"/>
+            <point key="canvasLocation" x="2701.5999999999999" y="-424.58770614692656"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gIn-NQ-fFN">
