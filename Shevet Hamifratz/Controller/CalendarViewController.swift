@@ -20,6 +20,15 @@ class CalendarViewController: UIViewController {
         settingsButton.setImage(tintedImage, for: .normal)
         settingsButton.tintColor = UIColor.white
         
+        var month: Int
+        month = 0
+        
+        if(month==1)
+        {
+            
+        }
+        
+        
         
         
         // Do any additional setup after loading the view.
