@@ -426,7 +426,7 @@
                                                     <action selector="backPressed:" destination="hj8-AN-QQo" eventType="touchUpInside" id="XAJ-ct-NNC"/>
                                                 </connections>
                                             </button>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" editable="NO" text=" " textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7d-fI-OPp">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" editable="NO" text=" " selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q7d-fI-OPp">
                                                 <rect key="frame" x="20" y="10" width="335" height="18"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
